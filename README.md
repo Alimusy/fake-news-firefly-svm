@@ -4,6 +4,16 @@ Fake news classifier that compares a standard SVM trained on the full TF-IDF
 feature space against an SVM trained on a feature subset chosen by a Binary
 Firefly Algorithm (BFA).
 
+## Open it
+
+Training and evaluation notebook:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alimusy/fake-news-firefly-svm/blob/main/notebooks/fake_news_firefly_svm.ipynb)
+
+Deploy the app yourself, one click, free:
+
+[![Deploy on Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=Alimusy/fake-news-firefly-svm&branch=main&mainModule=app/app.py)
+
 ## Method
 
 1. Article text cleaned and vectorised into 5,000 TF-IDF features.
