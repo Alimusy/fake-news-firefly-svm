@@ -27,7 +27,7 @@ A 28.1% cut in dimensionality costs about half a percentage point of accuracy.
 ```
 notebooks/   training and evaluation notebook
 app/         Streamlit app (app.py + pages/)
-models/      trained SVMs, TF-IDF vectoriser, selected feature mask
+app/app/models/  trained SVMs, TF-IDF vectoriser, selected feature mask
 ```
 
 ## Running the app
