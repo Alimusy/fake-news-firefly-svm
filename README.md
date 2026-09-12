@@ -12,7 +12,7 @@ Training and evaluation notebook:
 
 Deploy the app yourself, one click, free:
 
-[![Deploy on Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=Alimusy/fake-news-firefly-svm&branch=main&mainModule=app/app.py)
+[![Deploy on Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=Alimusy/fake-news-firefly-svm&branch=main&mainModule=streamlit_app.py)
 
 ## Method
 
@@ -36,15 +36,16 @@ A 28.1% cut in dimensionality costs about half a percentage point of accuracy.
 
 ```
 notebooks/   training and evaluation notebook
-app/         Streamlit app (app.py + pages/)
-app/app/models/  trained SVMs, TF-IDF vectoriser, selected feature mask
+streamlit_app.py  Streamlit entrypoint
+pages/       the two model pages
+app/models/      trained SVMs, TF-IDF vectoriser, selected feature mask
 ```
 
 ## Running the app
 
 ```bash
 pip install -r requirements.txt
-streamlit run app/app.py
+streamlit run streamlit_app.py
 ```
 
 ## Dataset
