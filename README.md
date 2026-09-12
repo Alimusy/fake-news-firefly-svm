@@ -14,6 +14,10 @@ Deploy the app yourself, one click, free:
 
 [![Deploy on Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=Alimusy/fake-news-firefly-svm&branch=main&mainModule=streamlit_app.py)
 
+> **Deploying:** set the Python version to **3.12** in Streamlit Cloud's advanced
+> settings. The saved models were trained on scikit-learn 1.6.1, which has no
+> wheel for Python 3.13 or newer.
+
 ## Method
 
 1. Article text cleaned and vectorised into 5,000 TF-IDF features.
